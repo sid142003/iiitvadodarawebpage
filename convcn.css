@@ -8,6 +8,19 @@
 .conv_header{
     text-align: center;
 }
+.container_a{
+   margin-top: 0px;
+    background-color: #f2eae2;
+    height: 100vh;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
 
 .chief_body{
     margin-left: 15px;
@@ -25,40 +38,30 @@
     
 }
 .conv_chairp{
-    /* z-index: 50; */
+  
     position: relative;
     background-color: white;
-    height: 50px;
+    /* height: 50px; */
     width: 80%; 
     margin-top:5rem;
     z-index: 20;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 
 .chief_img{
     border: 3px solid black;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     height: 150px;
     width: 300px;
     margin-left: 50px;
 }
 
 
-.container_a{
-    z-index: -50;
-    background-color: #f2eae2;
-    height: 100vh;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-}
 .chairperson{
     margin-top: 60px;
     margin-left: 50px;
@@ -66,3 +69,31 @@
     width: 300px;
     border: 3px solid black;
 }
+
+.conv_medalAwards{
+   
+    background-color: white;
+    
+    width: 80%; 
+    margin-top:15rem;
+    z-index: 20;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.img{
+    border: 5px solid black;
+    height: 50px;
+    width: 50px;
+}
+.one , .two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /* margin-top: 20px; */
+padding: 20px;
+} 
