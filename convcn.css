@@ -350,7 +350,9 @@ width: 60vw;
 .divider {
   border-left: 2px solid white;
   height: 130px;
-  margin-left: -80px;
+  margin-right: 20rem;
+  padding-left: 100px;
+
 }
 
 .medalpostion{
@@ -570,3 +572,22 @@ li{
   width: 100%;
   height: auto;
 }
+
+ .fab{
+  margin: 20px;
+  /* padding: 20px; */
+
+}
+.conv_icon_size a {
+  color: white;
+  padding: 5px;
+
+  
+}
+
+.columnf img{
+  height: 150px;
+  width: 150px;
+  margin-left: -50px;
+}
+
