@@ -347,13 +347,19 @@ width: 60vw;
 }
 
 /* Add a line between columns */
-.divider {
+.divider  {
   border-left: 2px solid white;
-  height: 130px;
-  margin-right: 20rem;
+  height: 150px;
+  margin-right: 5rem;
   padding-left: 100px;
 
 }
+.googlemaps{
+ margin-top: 10px;
+}
+
+
+
 
 .medalpostion{
   position: absolute;
