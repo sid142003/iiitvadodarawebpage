@@ -6,19 +6,40 @@
     <title>Convocation 2023</title>
     <link rel="stylesheet" href="convcn.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="conv_header">
-        <h1>पांचवा दीक्षांत समारोह 2023</h1>
-        <h1>5th Convocation 2023</h1>
+        <h1>पांचवें  दीक्षांत समारोह 2023</h1>
+        <h1>5<sup>th</sup> Convocation 2023</h1>
         <hr />
       </div>
 
+      
       <div class="container_a">
+
+
+     
+        
+        <!-- <button id="newsButton" class="btn btn-primary">News and Announcements</button>
+        <div id="newsPopup" class="popup">
+            <div class="popup-content">
+                <button id="closeButton" class="close-button">&times;</button>
+                <ul>
+                    <li>This is Announcement 1</li>
+                    <li>This is Announcement 2</li>
+                    <li>This is Announcement 3</li>
+                </ul>
+            </div>
+        </div> -->
         <!-- imagesilder///////////////////////////////////////////////////////////// -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
          
           <div class="carousel-indicators">
             <div>
@@ -49,22 +70,59 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
-        </div>
+        </div> -->
 
         <!-- /////////////////////////////////////////////////////////// -->
         <div class="container_b">
+          <!-- <div class="conv_news" style="background-color:transparent;" > -->
+        
+           <!-- <marquee  direction="right"   behaviour="alternate" > <h2 class="newsposition">News And Announcement</h2></marquee> -->
+           <!-- Button to trigger the popover on hover -->
+<!-- Button to trigger the popover on hover -->
+
+
+<div class="row justify-content-center" style="box-shadow: 8px 8px 6px -6px #ffc107;">
+  <div class="col-md-9 text-wrapper"> 
+      <div class="svg-wrapper"></div>
+      <h2 class="mbr-section-title mbr-fonts-style align-center mbr-regular mb-1 display-2" style=" text-decoration: underline; font-size: 40px; font-size: 35px; /* Adjust the font size as needed */
+      font-weight: bold; /* Make it bold */
+      font-family: Arial, sans-serif; /* Specify the desired font style */
+      text-align: center; /* Center-align the text */
+      margin-bottom: 20px; /* Add some space below the heading */
+      color: #333; / ">Announcements</h2>
+
+
+         
+              <p class="mbr-section-text mbr-fonts-style align-center mbr-regular mb-4 display-7">
+                  <marquee class="align-center" width="100%" direction="up" height="150px" scrollamount="2" behavior="scroll" onmouseover="this.stop();" onmouseleave="this.start();">
+                    <ul>
+                      <li>This is Announcement 1</li>
+                      <li>This is Announcement 2</li>
+                      <li>This is Announcement 3</li>
+                  </ul>
+                                                
+                  
+                                          </marquee>
+</p>	
+
+
+      </div>
+</div>
+            
+                    <!-- </div> -->
         <div class="conv_chief">
           <div class="chief_body">
+            
             <h2>Chief Guest</h2>
             <p>Shri Acharya Devvrat</p>
-            <p>Governor</p>
+            <p>Honourable Governor of Gujrat</p>
             <p>Government of Gujarat , India</p>
           </div>
           <div class="chief_img">
 
 
             <div class="card" >
-              <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Acharya_Devvrat_in_Gujarat_in_2023.jpg/330px-Acharya_Devvrat_in_Gujarat_in_2023.jpg" class="card-img-top" alt="...">
+              <img src="https://gujaratindia.gov.in/InnovaFiles/Shri-Acharya-Devvrat.jpg" class="card-img-top" alt="...">
               
               
                 
@@ -76,7 +134,38 @@
           </div>
         </div>
 
-        <div class="conv_chairp">
+       
+        <div class="conv_schedule">
+          <div class="card text-white bg-primary mb-3" style="max-width: 14rem;height: 14rem;">
+            <div class="card-header"   >  Schedule</div>
+            <div class="card-body">
+              <h5 class="card-tits"></h5>
+              <small>Click Here To Download</small>
+             
+            </div>
+          </div>
+          <div class="card text-white bg-secondary mb-3" style="max-width: 14rem;height: 14rem;">
+            <div class="card-header">Venue</div>
+            <div class="card-body">
+              <h5 class="card-tits">IIT Gandhinagar</h5>
+            
+            </div>
+          </div>
+          <div class="card text-white bg-success mb-3" style="max-width: 14rem; max-height: 14rem;" >
+            <div class="card-header">Live Stream <i class="material-icons">youtube</i></div>
+            <div class="card-body">
+                <!-- <small class="card-title">Click Here to Watch</small> -->
+                <!-- Add an image element for the thumbnail -->
+                <img src="" alt="Video Thumbnail" class="thumbnail">
+
+                <a href="https://www.youtube.com/watch?v=bgGRj02g7qo&ab_channel=TEDxTalks" target="_blank" class="thumbnail-link">
+                  <img src="" alt="Video Thumbnail" class="thumbnail" id="thumbnail-image">
+              </a>
+            </div>
+        </div>
+          </div>
+
+        <!-- <div class="conv_chairp">
           <div class="conv_chair_left">
             <h2>BOG Chairperson</h2>
             <p>Shri K Sanjay Murthy , IAS</p>
@@ -88,13 +177,14 @@
             <h2>Director IIIT Vadodara</h2>
             <p>Prof. Rajat Mona</p>
           </div>
-        </div>
-        <h2>Medals And Awards</h2>
+        </div> -->
         <div class="conv_medalAwards">
+       
+          <h2 class="medalpostion">Medals And Awards</h2>
           <div class="one">
             <div class=" img image1">
               <div class="card" style="width: 18rem;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Acharya_Devvrat_in_Gujarat_in_2023.jpg/330px-Acharya_Devvrat_in_Gujarat_in_2023.jpg"" class="card-img-top" alt="...">
+                <img src="https://gujaratindia.gov.in/InnovaFiles/Shri-Acharya-Devvrat.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -104,7 +194,7 @@
             </div>
             <div class="img image2">
               <div class="card" style="width: 18rem;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Acharya_Devvrat_in_Gujarat_in_2023.jpg/330px-Acharya_Devvrat_in_Gujarat_in_2023.jpg"" class="card-img-top" alt="...">
+                <img src="https://gujaratindia.gov.in/InnovaFiles/Shri-Acharya-Devvrat.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -114,7 +204,7 @@
             </div>
             <div class="img image3">
               <div class="card" style="width: 18rem;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Acharya_Devvrat_in_Gujarat_in_2023.jpg/330px-Acharya_Devvrat_in_Gujarat_in_2023.jpg"" class="card-img-top" alt="...">
+                <img src="https://gujaratindia.gov.in/InnovaFiles/Shri-Acharya-Devvrat.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -126,7 +216,7 @@
           <div class="two">
             <div class="img image4">
               <div class="card" style="width: 18rem;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Acharya_Devvrat_in_Gujarat_in_2023.jpg/330px-Acharya_Devvrat_in_Gujarat_in_2023.jpg"" class="card-img-top" alt="...">
+                <img src="https://gujaratindia.gov.in/InnovaFiles/Shri-Acharya-Devvrat.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -136,7 +226,7 @@
             </div>
             <div class="img image5">
               <div class="card" style="width: 18rem;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Acharya_Devvrat_in_Gujarat_in_2023.jpg/330px-Acharya_Devvrat_in_Gujarat_in_2023.jpg"" class="card-img-top" alt="...">
+                <img src="https://gujaratindia.gov.in/InnovaFiles/Shri-Acharya-Devvrat.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -146,7 +236,7 @@
             </div>
             <div class="img image6">
               <div class="card" style="width: 18rem;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Acharya_Devvrat_in_Gujarat_in_2023.jpg/330px-Acharya_Devvrat_in_Gujarat_in_2023.jpg"" class="card-img-top" alt="...">
+                <img src="https://gujaratindia.gov.in/InnovaFiles/Shri-Acharya-Devvrat.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -168,7 +258,8 @@
   <div class="card-header">Header</div>
   <div class="card-body">
     <h5 class="card-title"><a href="#">PhD</a></h5>
-    <small>click here</small>
+    <small style="visibility: hidden;" >Computer Science and <br>Engineering</small>
+    
    
   </div>
 </div>
@@ -176,21 +267,21 @@
   <div class="card-header">Header</div>
   <div class="card-body">
     <h5 class="card-title"><a href="#">M.Tech CSE</a></h5>
-    <small>click here</small>
+    <small>Computer Science and <br>Engineering</small>
   </div>
 </div>
 <div class="card text-white bg-success mb-3" style="max-width: 14rem;">
   <div class="card-header">Header</div>
   <div class="card-body">
     <h5 class="card-title"><a href="#">B.Tech CSE</a></h5>
-    <small>click here</small>
+    <small>Computer Science and <br>Engineering</small>
   </div>
 </div>
 <div class="card text-white bg-danger mb-3" style="max-width: 14rem;">
   <div class="card-header">Header</div>
   <div class="card-body">
     <h5 class="card-title"><a href="#">B.Tech IT</a></h5>
-    <small>click here</small>
+    <small>Information Technology</small>
    
   </div>
 </div>
@@ -200,31 +291,103 @@
 
         </div>
 
-       <div class="conv_schedule">
-        <div class="card text-white bg-primary mb-3" style="max-width: 14rem;">
-          <div class="card-header">Schedule</div>
+    
+     
+       <div class="conv_slider">
+        <h2  style="color: white ; font-weight: bold; padding-bottom: 15px ;margin-left: 45px;" >Photo Gallery</h2>
+
+
+        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-wrapper container-sm d-flex  justify-content-around">
+              <div class="card  " style="width: 18rem;">
+          <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title"></h5>
-            <small>click here</small>
+            
+            
+          </div>
+        </div><div class="card" style="width: 18rem;">
+          <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            
+            
+          </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+          <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            
+            
+          </div>
+        </div>
+        </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-wrapper container-sm d-flex   justify-content-around">
+              <div class="card  " style="width: 18rem;">
+          <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            
+            
+          </div>
+        </div><div class="card" style="width: 18rem;">
+          <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            
+            
+          </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+          <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+            
+            
+          </div>
+        </div>
+            </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-wrapper container-sm d-flex  justify-content-around">
+              <div class="card " style="width: 18rem;">
+          <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
            
+            
           </div>
         </div>
-        <div class="card text-white bg-secondary mb-3" style="max-width: 14rem;">
-          <div class="card-header">Venue</div>
+                <div class="card" style="width: 18rem;">
+          <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">IIT Gandhinagar</h5>
           
+            
+          </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+          <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
+          <div class="card-body">
+           
+            
           </div>
         </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-       <!-- <div class="conv_chairp">
+            
 
         </div>
-       <div class="conv_chairp">
-
-        </div> -->
       </div>
     </div>
+
+
 
     </div>
     <footer class="footer">
@@ -243,15 +406,19 @@
               <!-- Second Column -->
               <div class="column">
                   <div class="hii-text">
-                      <p><a href="#" style="color: white;" >Link to Live Stream</a></p>
+                    <i class="bi bi-linkedin"></i>
                   </div>
               </div>
           </div>
       </div>
   </footer>
   
+  
     <script src="index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 <!-- Include Bootstrap JS (optional) -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
